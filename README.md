@@ -1,25 +1,39 @@
-# 项目介绍  
-这是一个可以一键更新MinecraftMod的Python脚本，可以同版本、跨版本更新Mod，减少玩家的重复劳动。  
+# ModUpdaterX
 
-采用控制台操作，可兼容多种设备
+[简体中文](README-ZH.md)
 
-目前仅支持从Modrinth上获取Mod，这意味着有部分未上架Modrinth的Mod无法更新，暂时请手动更新。
+*Forked from [Zch0/ModUpdater](https://github.com/Zch0/ModUpdater)*
 
+This is a Python script that can update Minecraft Mod with just one click. Mods can be updated from the same version or across versions, reducing players' repetitive labor.
 
-# 环境要求
-- 开发使用Python 3.12版本，其他版本不保证运行
-- 建议使用虚拟环境
-- 建议在Linux下运行
-# 运行方法
-1. 安装依赖  
-`pip3 install -r requirements.txt`  
-**注意**：Windows用户需要额外安装`windows-curses`库
-2. 运行主程序  
-``python3 main.py``  
-**使用时请注意修改配置文件**  
+> [!important] CurseForge
+> Currently, we are unable to download CurseForge mods, and it has been added to the TODO list
+
+> [!note] Environmental Requirements
+> Requirements from the original author:
+> - The development uses Python version 3.12, and other versions are not guaranteed to run
+> - It is recommended to use a virtual environment
+> - It is recommended to run it under Linux
+> *But I don't think it's important. Although some mistakes may occur. So it's better to follow the requirements*
+
+# Quick Start
+1. Install dependencies
+```shell
+pip3 install -r requirements.txt
+```
+> [!note] Windows-Curses
+> If you are running this script on Windows, you also need to install a package named "windows-curses".
+> ```shell
+> pip install windows-curses
+> ```
+
+2. Just run it!
+```shell
+python3 main.py
+```
+**Please pay attention to modifying the configuration file when using.**
 
 # TODO
-1. 优化UI，完成设置页面
-2. 添加多种更新Mod的来源可供选择  
-
-
+- [ ] Optimize the UI
+- [ ] Complete the setting page
+- [ ] Add the function of downloading CurseForge mods
