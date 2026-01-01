@@ -6,10 +6,10 @@
 
 This is a Python script that can update Minecraft Mod with just one click. Mods can be updated from the same version or across versions, reducing players' repetitive labor.
 
-> [!important] CurseForge
+> [!important]
 > Currently, we are unable to download CurseForge mods, and it has been added to the TODO list
 
-> [!note] Environmental Requirements
+> [!note]
 > Requirements from the original author:
 > - The development uses Python version 3.12, and other versions are not guaranteed to run
 > - It is recommended to use a virtual environment
@@ -21,7 +21,7 @@ This is a Python script that can update Minecraft Mod with just one click. Mods 
 ```shell
 pip3 install -r requirements.txt
 ```
-> [!note] Windows-Curses
+> [!note]
 > If you are running this script on Windows, you also need to install a package named "windows-curses".
 > ```shell
 > pip install windows-curses

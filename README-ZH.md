@@ -6,10 +6,10 @@
 
 这是一个可以一键更新MC Mod的Python脚本。可以同版本、跨版本更新Mod，减少玩家的重复劳动。
 
-> [!important] CurseForge
+> [!important]
 > 现在，我们还不能下载CurseForge的模组。这个功能已经被加到TODO列表。
 
-> [!note] 环境要求
+> [!note]
 > 原作者的要求：
 > - 开发用了Python 3.12，运行正常，在其他Python版本不保证正常运行
 > - 最好用虚拟环境（Virtualenv、UV等）
@@ -21,7 +21,7 @@
 ```shell
 pip3 install -r requirements.txt
 ```
-> [!note] Windows-Curses
+> [!note]
 > 如果你用Windows，还需要安装"windows-curses"
 > ```shell
 > pip install windows-curses
